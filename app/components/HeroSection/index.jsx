@@ -11,7 +11,7 @@ const HeroSection = () => {
             <Box sx={styles.heroInnerWrapper}>
                 <Box sx={styles.heroTextWrapper}>
                     <Typography variant="h5">Hi! Its </Typography>{' '}
-                    <Typography variant="h4">Saif Ur Rehman</Typography>{' '}
+                    <Typography variant="h4" sx={{fontWeight: '600'}}>Saif Ur Rehman</Typography>{' '}
                 </Box>
                 <Box sx={styles.heroTextWrapper}>
                     <Typography variant="h5">I am a </Typography>

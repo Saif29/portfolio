@@ -20,7 +20,10 @@ export const styles = {
         display: 'flex',
         width: '60%',
         alignItems: 'flex-end',
-        gap: '7px'
+        gap: '7px',
+        '.index-module_type__E-SaG': {
+            fontWeight : '600',
+        }
     },
     heroText: {
     },
