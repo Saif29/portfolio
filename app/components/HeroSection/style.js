@@ -13,7 +13,14 @@ export const styles = {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-
+        flexDirection: 'column',
+        gap: '20px',
+    },
+    heroTextWrapper: {
+        display: 'flex',
+        width: '60%',
+        alignItems: 'flex-end',
+        gap: '7px'
     },
     heroText: {
     },
